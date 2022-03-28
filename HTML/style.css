@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    padding-left: 0.2%;
+    margin-top: 0.2%;
+   
+}
+
+.header-logo{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.header-tamanio{
+    width: 100%;
+    height: auto;
+}
+
+.header-nav{
+    padding: 10px;
+    margin: 0;
+   display: flex; 
+   list-style: none;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .header-nav-lista li {
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 5, 190, 0.5);
+   
+ }
+.img-pilares{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.img-flyer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;  
+    width: 400px;
+    height: 400px;
+ 
+}
+.texto-pilares{
+    padding: 10px;
+    margin: 10px;
+   display: flex; 
+     justify-content: space-between;
+   align-items: center;
+}
+
+.text-about{
+    padding: 10px;
+    margin: 10px;
+   display: flex; 
+     justify-content: space-between;
+   align-items: center;
+}
+
+.txt-carrusel{
+    padding: 10px;
+    margin: 0;
+   display: flex; 
+   list-style: none;
+   justify-content: space-between;
+   align-items: center;
+   margin: 10px;
+   border: solid 1px;
+   border-radius: 5px;
+   padding: 5px;
+   background-color: rgba(0, 5, 190, 0.5);
+}
+.background {
+    background-color: #f8d3d3;
+    background-image:url(imagenes/Wallpaper/abstract_geometric_banner_design_2507.eps);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.footerColor {
+    color: #2E608C;
+    font-style: italic;
+    font-size: 72.5%;
+}
+
+p {
+    display: inline;
+    color: #03658C;
+    font-size: 72.5%;
+}
+
+h1{
+    color: #024059;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    font-style: italic;
+} 
+
+ol {
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+
+li {
+    
+    font-size: 14px
+    
+ }
+ 
+
+a{ 
+    text-decoration: none;
+}
+
+footer{
+    background-color: #f8b3b3;
+}
